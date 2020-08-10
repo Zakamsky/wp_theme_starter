@@ -3,7 +3,6 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
-
 $goldphoenix_includes = array(
     '/theme-settings.php',                  // Theme setup and custom theme supports. Initialize theme default settings.
     '/widgets.php',                         // Register widget area.
@@ -15,7 +14,7 @@ $goldphoenix_includes = array(
 //    '/extras.php',                          // Custom functions that act independently of the theme templates.
     '/customizer.php',                      // Customizer additions.
     '/jetpack.php',                         // Load Jetpack compatibility file.
-//    '/class-wp-bootstrap-navwalker.php',    // Load custom WordPress nav walker. Trying to get deeper navigation? Check out: https://github.com/understrap/understrap/issues/567
+    '/class-wp-bootstrap-navwalker.php',    // Load custom WordPress nav walker. Trying to get deeper navigation? Check out: https://github.com/understrap/understrap/issues/567
     '/breadcrumbs.php', 					// Load custom breadcrumbs
     '/acf-blocks.php', 					// Load custom ACF bocks for Gutenberg
 //    '/woocommerce.php',                     // Load WooCommerce functions.
